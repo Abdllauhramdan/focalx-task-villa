@@ -3,7 +3,7 @@ import './CategoryButton.css'
 
 const CategoryButton = ({Button_Category}) => {
   return (
-    <div className='HJ_CategoryButton'>
+    <div className='AB_CategoryButton'>
         <Link to="/">
           {Button_Category}
         </Link>

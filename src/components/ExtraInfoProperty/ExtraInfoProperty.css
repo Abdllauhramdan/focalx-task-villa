@@ -1,29 +1,29 @@
-.HJ_ExtraInfoProperty {
+.AB_ExtraInfoProperty {
     background-color: #fafafa;
     padding: 100px 0px;
     margin-top: 120px;
 }
 
-.HJ_ExtraInfoProperty .HJ_ExtraInfo_PartOne {
+.AB_ExtraInfoProperty .AB_ExtraInfo_PartOne {
     display: flex;
     justify-content: space-between;
     align-items: center;
 
 }
 
-.HJ_ExtraInfoProperty .HJ_ExtraInfo_PartOne .HJ_ExtraInfo_Title {
+.AB_ExtraInfoProperty .AB_ExtraInfo_PartOne .AB_ExtraInfo_Title {
     width: 33%;
     height: 220px;
 }
 
-.HJ_ExtraInfoProperty .HJ_ExtraInfo_PartOne .HJ_ExtraInfo_Title h6 {
+.AB_ExtraInfoProperty .AB_ExtraInfo_PartOne .AB_ExtraInfo_Title h6 {
     color: #ee626b;
     font-size: 15px;
     text-transform: uppercase;
     font-weight: 700;
 }
 
-.HJ_ExtraInfoProperty .HJ_ExtraInfo_PartOne .HJ_ExtraInfo_Title h2 {
+.AB_ExtraInfoProperty .AB_ExtraInfo_PartOne .AB_ExtraInfo_Title h2 {
     font-size: 40px;
     font-weight: 700;
     text-transform: capitalize;
@@ -32,7 +32,7 @@
     color: #1e1e1e;
 }
 
-.HJ_ExtraInfoProperty .HJ_ExtraInfo_PartOne .HJ_FiltersVilla {
+.AB_ExtraInfoProperty .AB_ExtraInfo_PartOne .AB_FiltersVilla {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -41,93 +41,93 @@
 
 
 
-.HJ_ExtraInfoProperty .HJ_ImgExtraInfo {
+.AB_ExtraInfoProperty .AB_ImgExtraInfo {
     padding: 0px 45px;
     width: 100%;
     overflow: hidden
 }
 
-.HJ_ExtraInfoProperty .HJ_Heading_ExtraInfo {
+.AB_ExtraInfoProperty .AB_Heading_ExtraInfo {
     font-size: 17px;
     font-weight: 600;
     margin-bottom: 30px;
     color: #1e1e1e
 }
 
-.HJ_ExtraInfoProperty .HJ_Paragraph_ExtraInfo {
+.AB_ExtraInfoProperty .AB_Paragraph_ExtraInfo {
     font-size: 14px;
     line-height: 28px;
     color: #4a4a4a;
 }
 
-.HJ_ExtraInfoProperty .HJ_Btn_ExtraInfo {
+.AB_ExtraInfoProperty .AB_Btn_ExtraInfo {
     margin-top: 30px;
 
 }
 
 @media screen and (max-width: 1919px) {
-    .HJ_ExtraInfoProperty .HJ_ExtraInfo_PartOne .HJ_ExtraInfo_Title {
+    .AB_ExtraInfoProperty .AB_ExtraInfo_PartOne .AB_ExtraInfo_Title {
         width: 33%;
     }
 
-    .HJ_ListOfExtraInfo {
+    .AB_ListOfExtraInfo {
         width: max-content;
     }
 }
 
 @media screen and (max-width: 991px) {
-    .HJ_ExtraInfoProperty .HJ_ExtraInfo_PartOne .HJ_ExtraInfo_Title {
+    .AB_ExtraInfoProperty .AB_ExtraInfo_PartOne .AB_ExtraInfo_Title {
         width: 100%;
         text-align: center;
         height: max-content;
 
     }
 
-    .HJ_ExtraInfoProperty .HJ_ExtraInfo_PartOne {
+    .AB_ExtraInfoProperty .AB_ExtraInfo_PartOne {
         display: flex;
         flex-direction: column;
     }
 
-    .HJ_ExtraInfoProperty .HJ_ExtraInfo_PartOne .HJ_FiltersVilla {
+    .AB_ExtraInfoProperty .AB_ExtraInfo_PartOne .AB_FiltersVilla {
         margin-top: 70px;
         margin-bottom: 70px;
     }
 
-    .HJ_ListOfExtraInfo {
+    .AB_ListOfExtraInfo {
         width: 100%;
         margin-bottom: 50px;
     }
 
-    .HJ_ExtraInfoProperty .HJ_ImgExtraInfo {
+    .AB_ExtraInfoProperty .AB_ImgExtraInfo {
         padding-inline: 0px;
         margin-bottom: 50px;
     }
 
-    .HJ_Btn_ExtraInfo {
+    .AB_Btn_ExtraInfo {
         position: relative;
         right: 7%;
     }
 
-    .HJ_Btn_ExtraInfo .Button_ScheduleVisit a {
+    .AB_Btn_ExtraInfo .Button_ScheduleVisit a {
         width: 206px;
         height: 50px;
         padding: 0px 30px 0px 0px;
     }
 
-    .HJ_Btn_ExtraInfo .Button_ScheduleVisit .HJ_square {
+    .AB_Btn_ExtraInfo .Button_ScheduleVisit .AB_square {
         width: 50px;
         height: 50px;
         left: 45px;
     }
 
-    .HJ_Btn_ExtraInfo .Button_ScheduleVisit .HJ_square .HJ_IconCalender {
+    .AB_Btn_ExtraInfo .Button_ScheduleVisit .AB_square .AB_IconCalender {
         left: 18px;
         top: 15px;
     }
 }
 
 @media screen and (max-width: 767px) {
-    .HJ_FiltersVilla {
+    .AB_FiltersVilla {
         width: 50%;
         display: flex;
         align-items: center;
@@ -135,16 +135,16 @@
         right: 5%;
     }
 
-    .HJ_FiltersVilla .HJ_CategoryButton {
+    .AB_FiltersVilla .AB_CategoryButton {
         width: max-content;
     }
 
-    .HJ_FiltersVilla .HJ_CategoryButton a {
+    .AB_FiltersVilla .AB_CategoryButton a {
         font-size: 14px;
         height: 44px;
     }
 
-    .HJ_ExtraInfoProperty .HJ_ExtraInfo_PartOne .HJ_ExtraInfo_Title {
+    .AB_ExtraInfoProperty .AB_ExtraInfo_PartOne .AB_ExtraInfo_Title {
         width: 516px;
         height: 112px;
         margin-bottom: 20px;
@@ -153,23 +153,23 @@
 }
 
 @media screen and (max-width: 576px) {
-    .HJ_Btn_ExtraInfo {
+    .AB_Btn_ExtraInfo {
         position: relative;
         right: 12%;
     }
 
-    .HJ_FiltersVilla .HJ_CategoryButton {
+    .AB_FiltersVilla .AB_CategoryButton {
         height: 44px;
     }
 
-    .HJ_ExtraInfoProperty .HJ_ExtraInfo_PartOne .HJ_ExtraInfo_Title {
+    .AB_ExtraInfoProperty .AB_ExtraInfo_PartOne .AB_ExtraInfo_Title {
         height: 150px;
         margin-bottom: 20px;
         width: 366px;
 
     }
 
-    .HJ_FiltersVilla .HJ_CategoryButton a {
+    .AB_FiltersVilla .AB_CategoryButton a {
         font-size: 14px;
         height: 44px;
         width: min-content;
@@ -177,7 +177,7 @@
 
     }
 
-    .HJ_ExtraInfoProperty .HJ_ExtraInfo_PartOne .HJ_FiltersVilla {
+    .AB_ExtraInfoProperty .AB_ExtraInfo_PartOne .AB_FiltersVilla {
         position: relative;
         left: 10px;
         width: min-content;
@@ -185,18 +185,18 @@
         justify-content: space-around;
         gap: 8px;
     }
-    .HJ_ExtraInfoProperty .HJ_Heading_ExtraInfo {
+    .AB_ExtraInfoProperty .AB_Heading_ExtraInfo {
         font-size: 25px;
     }
     
-    .HJ_ExtraInfoProperty .HJ_Paragraph_ExtraInfo {
+    .AB_ExtraInfoProperty .AB_Paragraph_ExtraInfo {
         font-size: 18px;
     }
 
 }
 
 @media screen and (min-width: 390px) and (max-width : 500px) {
-    .HJ_ExtraInfoProperty .HJ_ExtraInfo_PartOne .HJ_FiltersVilla {
+    .AB_ExtraInfoProperty .AB_ExtraInfo_PartOne .AB_FiltersVilla {
         position: relative;
         left: 0px;
         width: min-content;
@@ -204,7 +204,7 @@
         gap: 10px;
     }
 
-    .HJ_FiltersVilla .HJ_CategoryButton a {
+    .AB_FiltersVilla .AB_CategoryButton a {
         font-size: 14px;
         height: 44px;
         width: min-content;

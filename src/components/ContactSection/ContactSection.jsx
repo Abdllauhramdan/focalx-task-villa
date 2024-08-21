@@ -7,23 +7,23 @@ import IconBox2 from './../../assets/images/email-icon.png'
 
 const ContactSection = () => {
   return (
-    <div className="HJ_ContactSection">
-      <div className="HJ_Contact">
-        <div className="container_custom HJ_CenterContact">
-          <div className="HJ_SectionHeading text-center">
+    <div className="AB_ContactSection">
+      <div className="AB_Contact">
+        <div className="container_custom AB_CenterContact">
+          <div className="AB_SectionHeading text-center">
             <h6>| CONTACT US</h6>
             <h2>Get In Touch With Our Agents</h2>
           </div>
-          <div className="HJ_Content_Contact">
+          <div className="AB_Content_Contact">
             <div className="row">
-              <div className="col-lg-7 HJ_ContentMapContact">
+              <div className="col-lg-7 AB_ContentMapContact">
                 <MapContact/>
-                <div className="HJ_BoxesContact">
+                <div className="AB_BoxesContact">
                   <BoxInfo Icon ={IconBox1} BoxTitle="010-020-0340" BoxSubTitle="Phone Number" />
                   <BoxInfo Icon ={IconBox2} BoxTitle=" info@villa.co" BoxSubTitle="Business Email" />
                 </div>
               </div>
-              <div className="col-lg-5 HJ_ContentForm">
+              <div className="col-lg-5 AB_ContentForm">
                 <FormContact/>
 
               </div>

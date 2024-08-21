@@ -1,17 +1,17 @@
-.HJ_nav{
+.AB_nav{
     background:white;
     position: sticky;
     top:0;
     z-index: 99999;
     width: 100%;
 }
-.HJ_nav .HJ_ContentNavBar{
+.AB_nav .AB_ContentNavBar{
     display: flex;
     justify-content: space-between;
     align-items: center;
 
 }
-.HJ_nav .HJ_ContentNavBar .HJ_logo{
+.AB_nav .AB_ContentNavBar .AB_logo{
     line-height: 100px;
     font-size: 28px;
     text-transform: uppercase;
@@ -20,13 +20,13 @@
     letter-spacing: 2px;
     font-family: 'Poppins', sans-serif;
 }
-.HJ_nav .HJ_ContentNavBar .HJ_navbar-menu{
+.AB_nav .AB_ContentNavBar .AB_navbar-menu{
     display: flex;
     list-style: none;
     align-items: center;
     gap: 20px;
 }
-.HJ_nav .HJ_ContentNavBar .HJ_navbar-menu  .HJ_link a{
+.AB_nav .AB_ContentNavBar .AB_navbar-menu  .AB_link a{
     text-decoration: none;
     display: block;
     padding-left: 20px;
@@ -44,25 +44,25 @@
     font-family: 'Poppins', sans-serif;
 }
 
-.HJ_nav .HJ_ContentNavBar .HJ_link a.active{
+.AB_nav .AB_ContentNavBar .AB_link a.active{
     color: #f35525;
 }
 
 
-.HJ_MenuIcon{
+.AB_MenuIcon{
     display: none;
 }
 
 @media screen and (max-width: 767px){
-    .HJ_MenuIcon{
+    .AB_MenuIcon{
         display: block;
         cursor: pointer;
     }
-    .HJ_IconBars{
+    .AB_IconBars{
         font-size: 2rem;
         color: #1e1e1e;
     } 
-    .HJ_nav .HJ_ContentNavBar .HJ_navbar-menu{
+    .AB_nav .AB_ContentNavBar .AB_navbar-menu{
         height: max-content;
         box-shadow: none;
         text-align: center;
@@ -79,17 +79,17 @@
         transition: 0.3s ease-in-out;
       
     }
-    .HJ_nav .HJ_ContentNavBar .HJ_navbar-menu.active {
+    .AB_nav .AB_ContentNavBar .AB_navbar-menu.active {
     
         opacity: 1;
         z-index: -1;
         transition: 0.3s ease-in-out;
     }
-    .HJ_nav .HJ_ContentNavBar .HJ_DisplayButton{
+    .AB_nav .AB_ContentNavBar .AB_DisplayButton{
         display: none;
     }
   
-    .HJ_nav .HJ_ContentNavBar .HJ_navbar-menu  .HJ_link a{
+    .AB_nav .AB_ContentNavBar .AB_navbar-menu  .AB_link a{
         line-height: 50px;
 
         width: 90vw;
@@ -106,7 +106,7 @@
 
         
     }
-    .HJ_nav .HJ_ContentNavBar .HJ_link a.active{
+    .AB_nav .AB_ContentNavBar .AB_link a.active{
         color: #ee626b !important;
         opacity: 1;
     }
@@ -115,11 +115,11 @@
 }
 @media screen and (max-width: 992px) {
     
-    .HJ_nav .HJ_ContentNavBar .HJ_navbar-menu{
+    .AB_nav .AB_ContentNavBar .AB_navbar-menu{
         gap: 2px;
         padding: 2px;
     }
-    .HJ_nav .HJ_ContentNavBar .HJ_navbar-menu  .HJ_link a{
+    .AB_nav .AB_ContentNavBar .AB_navbar-menu  .AB_link a{
         padding-left: 5px;
         padding-right: 5px;
     }

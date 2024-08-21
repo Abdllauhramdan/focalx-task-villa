@@ -9,9 +9,9 @@ import VillaCard from "../VillaCard/VillaCard";
 
 const PropertiesVilla = () => {
   return (
-    <div className="HJ_PropertiesVilla">
+    <div className="AB_PropertiesVilla">
       <div className="container_custom">
-        <div className="HJ_Properties_PartOne">
+        <div className="AB_Properties_PartOne">
           <h6 className="text-center">| PROPERTIES</h6>
           <h2 className="text-center">We Provide The Best Property You Like</h2>
         </div>

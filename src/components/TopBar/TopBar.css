@@ -1,47 +1,47 @@
-.HJ_TopBar {
+.AB_TopBar {
     background-color: #fff;
     padding: 10px 0px;
     border-bottom: 1px solid #eee;
     width: 100%;
     display: block;
 }
-.HJ_TopBar .HJ_ContentTopbar{
+.AB_TopBar .AB_ContentTopbar{
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 10px 0px;
 
 }
-.HJ_TopBar .HJ_ContentTopbar .HJ_info{
+.AB_TopBar .AB_ContentTopbar .AB_info{
     display: flex;
     align-items: center;
 }
-.HJ_TopBar .HJ_ContentTopbar .HJ_info .HJ_SubContainer{
+.AB_TopBar .AB_ContentTopbar .AB_info .AB_SubContainer{
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-.HJ_TopBar .HJ_ContentTopbar .HJ_info .HJ_SubContainer .HJ_iconColor{
+.AB_TopBar .AB_ContentTopbar .AB_info .AB_SubContainer .AB_iconColor{
     color:#f35525 ;
     font-size: 20px;
     margin-right: 8px;
     
 }
-.HJ_TopBar .HJ_ContentTopbar .HJ_info .HJ_SubContainer  .HJ_SubTitle{
+.AB_TopBar .AB_ContentTopbar .AB_info .AB_SubContainer  .AB_SubTitle{
     font-size: 14px;
     color: #7a7a7a;
     border-right: 1px solid #eee;
     margin-right: 25px;
     padding-right: 25px;
 }
-.HJ_TopBar .HJ_ContentTopbar .HJ_SocialLinks{
+.AB_TopBar .AB_ContentTopbar .AB_SocialLinks{
   display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 10px;
    
 }
-.HJ_TopBar .HJ_ContentTopbar .HJ_SocialLinks  .HJ_CircleIcon{
+.AB_TopBar .AB_ContentTopbar .AB_SocialLinks  .AB_CircleIcon{
     width: 30px;
     height: 30px;
     border-radius: 50%;
@@ -55,7 +55,7 @@
 
 }
 @media screen and (max-width: 992px){
-    .HJ_TopBar {
+    .AB_TopBar {
         display: none;
     }
 

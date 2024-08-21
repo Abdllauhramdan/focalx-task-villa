@@ -1,7 +1,7 @@
-.HJ_Accordion .HJ_Accordionbody{
+.AB_Accordion .AB_Accordionbody{
     background-color:#fafafa !important ;
 }
-.HJ_Accordion .HJ_Accordionbody .HJ_btnVilla{
+.AB_Accordion .AB_Accordionbody .AB_btnVilla{
     color: rgb(0, 26, 255);
     border: none;
     background-color: transparent;
@@ -18,7 +18,7 @@
     cursor: pointer;
 }
 
-.HJ_Accordion .HJ_Accordionbody .HJ_Font_pink{
+.AB_Accordion .AB_Accordionbody .AB_Font_pink{
     font-size: 14px;
     color: #D63384;
     word-wrap: break-word;
@@ -28,7 +28,7 @@
 
 
 @media screen and (max-width: 576px) {
-    .HJ_Accordion .HJ_Accordionbody{
+    .AB_Accordion .AB_Accordionbody{
         font-size: 18px;
     }
 

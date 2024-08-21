@@ -12,15 +12,15 @@ const NavBar = () => {
   return (
     <>
      <TopBar/>
-      <div className="HJ_nav">
+      <div className="AB_nav">
         <div className="container_custom">
-          <div className="HJ_ContentNavBar">
-            <h1 className="HJ_logo">VILLA</h1>
-            <div className="HJ_MenuIcon">
-             < FaBars onClick={toggle} className="HJ_IconBars"/>
+          <div className="AB_ContentNavBar">
+            <h1 className="AB_logo">VILLA</h1>
+            <div className="AB_MenuIcon">
+             < FaBars onClick={toggle} className="AB_IconBars"/>
             </div>
-            <ul className={isOpen ? 'HJ_navbar-menu active' : 'HJ_navbar-menu'}>
-              <li className="HJ_link">
+            <ul className={isOpen ? 'AB_navbar-menu active' : 'AB_navbar-menu'}>
+              <li className="AB_link">
                 <NavLink
                   to="/Task1VillaAgency"
                   className={({ isActive }) => (isActive ? "active" : "")}
@@ -28,7 +28,7 @@ const NavBar = () => {
                   Home
                 </NavLink>
               </li>
-              <li className="HJ_link">
+              <li className="AB_link">
                 <NavLink
                   to="/Properties"
                   className={({ isActive }) => (isActive ? "active" : "")}
@@ -36,7 +36,7 @@ const NavBar = () => {
                   Properties
                 </NavLink>
               </li>
-              <li className="HJ_link">
+              <li className="AB_link">
                 <NavLink
                   to="/Property Details"
                   className={({ isActive }) => (isActive ? "active" : "")}
@@ -44,7 +44,7 @@ const NavBar = () => {
                   Property Details
                 </NavLink>
               </li>
-              <li className="HJ_link">
+              <li className="AB_link">
                 <NavLink
                   to="/Contact Us"
                   className={({ isActive }) => (isActive ? "active" : "")}
@@ -52,7 +52,7 @@ const NavBar = () => {
                   Contact Us
                 </NavLink>
               </li>
-              <li className="HJ_DisplayButton">
+              <li className="AB_DisplayButton">
                 <Button_ScheduleVisit />
               </li>
             </ul>

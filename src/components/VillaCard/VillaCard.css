@@ -1,19 +1,19 @@
-.HJ_ItemCard{
+.AB_ItemCard{
     background-color: #fafafa;
     border-radius: 10px;
     padding: 30px;
     margin-bottom: 30px;
 }
-.HJ_ItemCard .HJ_Property_IMG{
+.AB_ItemCard .AB_Property_IMG{
     border-radius: 10px;
     width: 100%;
     overflow: hidden
 }
-.HJ_ItemCard .HJ_Space_CARD{
+.AB_ItemCard .AB_Space_CARD{
     display: flex;
     justify-content: space-between;
 }
-.HJ_ItemCard  .HJ_Space_CARD .HJ_categoryCard{
+.AB_ItemCard  .AB_Space_CARD .AB_categoryCard{
     background-color: #fbd9cf;
     font-weight: 500;
     border-radius: 5px;
@@ -24,7 +24,7 @@
     margin-top: 25px;
 
 }
-.HJ_ItemCard  .HJ_Space_CARD .HJ_priceCard{
+.AB_ItemCard  .AB_Space_CARD .AB_priceCard{
     font-size: 20px;
     color: #f35525;
     display: inline-block;
@@ -32,39 +32,39 @@
     font-weight: 700;
 }
 
-.HJ_ItemCard .HJ_AddressCard{
+.AB_ItemCard .AB_AddressCard{
     font-size: 19px;
     margin: 25px 0px;
     font-weight: 700;
     display: flex;
     justify-content: flex-start;
 }
-.HJ_ItemCard  .HJ_AddressCard a {
+.AB_ItemCard  .AB_AddressCard a {
     color: #1e1e1e;
     text-decoration: none !important;
 }
 
-.HJ_ItemCard .SpecialFeatures_Card{
+.AB_ItemCard .SpecialFeatures_Card{
     border-bottom: 1px solid #eaeaea;
     margin-bottom: 30px;
     padding-bottom: 30px;
 }
-.HJ_ItemCard .SpecialFeatures_Card .HJ_NumberRoom_Card{
+.AB_ItemCard .SpecialFeatures_Card .AB_NumberRoom_Card{
    display: flex;
 }
-.HJ_ItemCard .SpecialFeatures_Card .HJ_NumberRoom_Card h4 , .HJ_SubTitle_font{
+.AB_ItemCard .SpecialFeatures_Card .AB_NumberRoom_Card h4 , .AB_SubTitle_font{
     display: inline-block;
     font-size: 15px;
     color: #4a4a4a;
     margin-right: 20px;
 
 }
-.HJ_ItemCard .SpecialFeatures_Card .HJ_NumberRoom_Card span , .HJ_Span_font{
+.AB_ItemCard .SpecialFeatures_Card .AB_NumberRoom_Card span , .AB_Span_font{
     font-weight: 600;
     color: #1e1e1e;
 }
 
-.HJ_ButtonCardVilla a{
+.AB_ButtonCardVilla a{
     display: inline-block;
     background-color: #1e1e1e;
     color: #fff;
@@ -78,26 +78,26 @@
     text-decoration: none !important;
 }
 
-.HJ_ButtonCardVilla a:hover{
+.AB_ButtonCardVilla a:hover{
   background-color: #f35525;
 }
     
 @media screen and (max-width: 576px) {
-    .HJ_ItemCard  .HJ_Space_CARD .HJ_categoryCard{
+    .AB_ItemCard  .AB_Space_CARD .AB_categoryCard{
         font-size: 18px;
     }
-    .HJ_ItemCard  .HJ_Space_CARD .HJ_priceCard{
+    .AB_ItemCard  .AB_Space_CARD .AB_priceCard{
         font-size: 25px;
     }
     
-    .HJ_ItemCard .HJ_AddressCard{
+    .AB_ItemCard .AB_AddressCard{
         font-size: 25px;
     }
-    .HJ_ItemCard .SpecialFeatures_Card .HJ_NumberRoom_Card h4 , .HJ_SubTitle_font{
+    .AB_ItemCard .SpecialFeatures_Card .AB_NumberRoom_Card h4 , .AB_SubTitle_font{
         font-size: 18px;
     }
     
-    .HJ_ButtonCardVilla a{
+    .AB_ButtonCardVilla a{
         font-size: 18px;
   
     }

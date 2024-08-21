@@ -8,7 +8,7 @@ const Button_ScheduleVisit = () => {
   return (
     <div className='Button_ScheduleVisit'>
 
-      <div className='HJ_square'><FaCalendar className='HJ_IconCalender'/></div>       
+      <div className='AB_square'><FaCalendar className='AB_IconCalender'/></div>       
       <Link to ='/'>Schedule a visit</Link>   
 
     </div>

@@ -1,7 +1,7 @@
-.HJ_SinglePropertyDetails {
+.AB_SinglePropertyDetails {
     margin-top: 120px;
 }
-.HJ_SinglePropertyDetails  .HJ_MainContent .HJ_ColorMain {
+.AB_SinglePropertyDetails  .AB_MainContent .AB_ColorMain {
     background-color: #fbd9cf;
     font-weight: 500;
     border-radius: 5px;
@@ -14,7 +14,7 @@
 
 
 
-.HJ_SinglePropertyDetails  .HJ_MainContent .HJ_titleMain {
+.AB_SinglePropertyDetails  .AB_MainContent .AB_titleMain {
     font-size: 25px;
     margin-top: 25px;
     margin-bottom: 40px;
@@ -23,52 +23,52 @@
     font-weight: 700;
     color: #1e1e1e;
 }
-.HJ_SinglePropertyDetails  .HJ_MainContent .HJ_paragrapnMain{
+.AB_SinglePropertyDetails  .AB_MainContent .AB_paragrapnMain{
     font-size: 14px;
     line-height: 28px;
     color: #4a4a4a;
 }
-.HJ_SinglePropertyDetails  .HJ_MainContent .HJ_paragrapnMain a {
+.AB_SinglePropertyDetails  .AB_MainContent .AB_paragrapnMain a {
     text-decoration: none;
 }
 
-.HJ_SinglePropertyDetails  .HJ_MainContent .HJ_MainSpace{
+.AB_SinglePropertyDetails  .AB_MainContent .AB_MainSpace{
     margin-top: 60px;
 
 }
-.HJ_SinglePropertyDetails .HJ_MainImage{
+.AB_SinglePropertyDetails .AB_MainImage{
     width:736px
 
 }
-.HJ_SinglePropertyDetails .HJ_MainImage img{
+.AB_SinglePropertyDetails .AB_MainImage img{
     width:100%;
 }
 
 @media screen and (max-width: 1919px) {
-    .HJ_SinglePropertyDetails .HJ_MainImage{
+    .AB_SinglePropertyDetails .AB_MainImage{
         width:600px;
     }
-    .HJ_SinglePropertyDetails .HJ_MainImage img{
+    .AB_SinglePropertyDetails .AB_MainImage img{
         width:100%;
     }
-    .HJ_SinglePropertyDetails .HJ_InfoVilla{
+    .AB_SinglePropertyDetails .AB_InfoVilla{
         width: max-content;
     } 
-    .HJ_sizeMain{
+    .AB_sizeMain{
         width:600px;
 
     }
 
 }
 @media screen and (max-width: 991px) {
-    .HJ_SinglePropertyDetails .HJ_InfoVilla{
+    .AB_SinglePropertyDetails .AB_InfoVilla{
         width:100%;
         margin-top: 50px;
     } 
-    .HJ_sizeMain{
+    .AB_sizeMain{
         width: 100%;
     }
-    .HJ_SinglePropertyDetails .HJ_MainImage{
+    .AB_SinglePropertyDetails .AB_MainImage{
         width:100%;
     }
 
@@ -76,14 +76,14 @@
 }
 
 @media screen and (max-width: 576px) {
-    .HJ_SinglePropertyDetails  .HJ_MainContent .HJ_ColorMain {
+    .AB_SinglePropertyDetails  .AB_MainContent .AB_ColorMain {
         font-size: 18px;
     }
     
-    .HJ_SinglePropertyDetails  .HJ_MainContent .HJ_titleMain {
+    .AB_SinglePropertyDetails  .AB_MainContent .AB_titleMain {
         font-size: 30px;
     }
-    .HJ_SinglePropertyDetails  .HJ_MainContent .HJ_paragrapnMain{
+    .AB_SinglePropertyDetails  .AB_MainContent .AB_paragrapnMain{
         font-size: 18px;
     }
 

@@ -1,4 +1,4 @@
-.HJ_BoxInfo{
+.AB_BoxInfo{
     border-radius: 10px;
     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);
     padding: 35px 30px;
@@ -6,36 +6,36 @@
     width:293.5px;
 }
 
-.HJ_BoxInfo .HJ_ItemBox{
+.AB_BoxInfo .AB_ItemBox{
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.HJ_BoxInfo .HJ_ItemBox .HJ_ItemInfoo{
+.AB_BoxInfo .AB_ItemBox .AB_ItemInfoo{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
 }
-.HJ_BoxInfo .HJ_ItemBox .HJ_ItemInfoo .HJ_TitleBox{
+.AB_BoxInfo .AB_ItemBox .AB_ItemInfoo .AB_TitleBox{
     font-size: 20px;
     font-weight: 600;
     vertical-align: middle;
     color: #1e1e1e;
 }
 
-.HJ_BoxInfo .HJ_ItemBox .HJ_ItemInfoo .HJ_SubTitleBox{
+.AB_BoxInfo .AB_ItemBox .AB_ItemInfoo .AB_SubTitleBox{
     font-size: 15px;
     color: #aaaaaa;
     font-weight: 400;
 }
 
 @media screen and (max-width: 576px) {
-    .HJ_BoxInfo .HJ_ItemBox .HJ_ItemInfoo .HJ_TitleBox{
+    .AB_BoxInfo .AB_ItemBox .AB_ItemInfoo .AB_TitleBox{
         font-size: 23px;
     }
     
-    .HJ_BoxInfo .HJ_ItemBox .HJ_ItemInfoo .HJ_SubTitleBox{
+    .AB_BoxInfo .AB_ItemBox .AB_ItemInfoo .AB_SubTitleBox{
         font-size: 18px;
     }
 

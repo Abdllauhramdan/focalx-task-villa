@@ -1,11 +1,11 @@
-.HJ_Footer {
+.AB_Footer {
     margin-top: 150px;
     background-color: #1e1e1e;
     height: 100%;
 }
 
 
-.HJ_Footer .HJ_paragraphFooter {
+.AB_Footer .AB_paragraphFooter {
     text-align: center;
     line-height: 100px;
     color: #fff;
@@ -13,7 +13,7 @@
     font-weight: 400;
 }
 
-.HJ_Footer .HJ_paragraphFooter .HJ_LinkFooter {
+.AB_Footer .AB_paragraphFooter .AB_LinkFooter {
     color: #fff;
     transition: all .3s;
     position: relative;

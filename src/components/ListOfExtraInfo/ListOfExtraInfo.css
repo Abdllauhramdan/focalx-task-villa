@@ -1,11 +1,11 @@
-.HJ_ListOfExtraInfo{
+.AB_ListOfExtraInfo{
     border-radius: 10px;
     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);
     padding: 35px 30px;
     height: 420px;
 }
 
-.HJ_ListOfExtraInfo .HJ_List{
+.AB_ListOfExtraInfo .AB_List{
     display: block;
     margin-bottom: 24px;
     padding-bottom: 24px;
@@ -16,12 +16,12 @@
     align-items: center;
 
 }
-.HJ_ListOfExtraInfo .HJ_List h4{
+.AB_ListOfExtraInfo .AB_List h4{
     font-size: 15px;
     color: #aaa;
     font-weight: 400;
 }
-.HJ_ListOfExtraInfo .HJ_List span{
+.AB_ListOfExtraInfo .AB_List span{
     font-size: 20px;
     color: #1e1e1e;
     font-weight: 700;
@@ -29,10 +29,10 @@
 }
 
 @media screen and (max-width: 576px) {
-    .HJ_ListOfExtraInfo .HJ_List h4{
+    .AB_ListOfExtraInfo .AB_List h4{
         font-size: 18px;
     }
-    .HJ_ListOfExtraInfo .HJ_List span{
+    .AB_ListOfExtraInfo .AB_List span{
         font-size: 25px;
     }
 

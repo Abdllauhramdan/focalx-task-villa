@@ -1,11 +1,11 @@
-.HJ_CarouselHeader{
+.AB_CarouselHeader{
     position: relative;
     max-width: 100%;
 }
-.HJ_ContainerCarousel{
+.AB_ContainerCarousel{
     height:100%;
 }
-.HJ_CarouselHeader .HJ_CarouselCaption{
+.AB_CarouselHeader .AB_CarouselCaption{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -17,7 +17,7 @@
     color: #fff;
     text-align: left;  
 }
-.HJ_CarouselHeader .HJ_CarouselCaption .HJ_TextCarousel{
+.AB_CarouselHeader .AB_CarouselCaption .AB_TextCarousel{
     background-color: #fff;
     color: #1e1e1e;
     font-size: 16px;
@@ -27,7 +27,7 @@
     display: inline-block;
     margin-bottom: 30px;
 }
-.HJ_CarouselHeader .HJ_CarouselCaption h2{
+.AB_CarouselHeader .AB_CarouselCaption h2{
     font-size: 62px;
     font-weight: 700;
     text-transform: uppercase;
@@ -36,11 +36,11 @@
     width: 386px;
 }
 
-.HJ_CarouselHeader .HJ_CarouselCaption .HJ_TextCarousel .HJ_Style_Country{
+.AB_CarouselHeader .AB_CarouselCaption .AB_TextCarousel .AB_Style_Country{
   color: #f35525;
   font-style: normal;
 }
-.HJ_CarouselHeader img{
+.AB_CarouselHeader img{
     background-repeat: no-repeat;
     width: 100vw;
     height: 100vh;
@@ -62,7 +62,7 @@
 }
 @media screen and (max-width: 1919px) {
 
-    .HJ_CarouselHeader .HJ_CarouselCaption{
+    .AB_CarouselHeader .AB_CarouselCaption{
         bottom: 4.25rem;
         left: 20%;
         padding-top: 1.25rem;
@@ -71,24 +71,24 @@
 
 }
 @media screen and (max-width: 992px) {
-    .HJ_CarouselHeader .HJ_CarouselCaption{
+    .AB_CarouselHeader .AB_CarouselCaption{
         bottom: 4.25rem;
         left: 20%;
     
     }
-    .HJ_CarouselHeader .HJ_CarouselCaption h2{
+    .AB_CarouselHeader .AB_CarouselCaption h2{
         width: 100%;
        
     }
 
 }
 @media screen and (max-width: 576px) {
-    .HJ_CarouselHeader .HJ_CarouselCaption{
+    .AB_CarouselHeader .AB_CarouselCaption{
         top: 12.25rem;
         left: 20%;
        
     }
-    .HJ_CarouselHeader .HJ_CarouselCaption h2{
+    .AB_CarouselHeader .AB_CarouselCaption h2{
         width: 400px;
         font-size: 50px;
         font-weight: 700;
@@ -96,7 +96,7 @@
    
 }
 @media screen and (min-width: 390px)  and (max-width :551px ){
-    .HJ_CarouselHeader .HJ_CarouselCaption h2{
+    .AB_CarouselHeader .AB_CarouselCaption h2{
         width: 250px;
     }
 

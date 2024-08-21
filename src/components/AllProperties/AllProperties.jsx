@@ -11,8 +11,8 @@ import "./AllProperties.css";
 
 const AllProperties = () => {
   return (
-    <div className="HJ_AllProperties">
-      <div className="HJ_ALLPropertyVilla">
+    <div className="AB_AllProperties">
+      <div className="AB_ALLPropertyVilla">
         <CategoryButton Button_Category="ShowAll" />
         <CategoryButton Button_Category="Appartment" />
         <CategoryButton Button_Category="Villa House" />
@@ -98,11 +98,11 @@ const AllProperties = () => {
           />
         </div>
       </div>
-      <div className="HJ_Pagination"> 
-        <span className="HJ_Number">1</span>
-        <span className="HJ_Number  HJ_Active">2</span>
-        <span className="HJ_Number">3</span>
-        <span className="HJ_Number"> 4</span>
+      <div className="AB_Pagination"> 
+        <span className="AB_Number">1</span>
+        <span className="AB_Number  AB_Active">2</span>
+        <span className="AB_Number">3</span>
+        <span className="AB_Number"> 4</span>
       </div>
     </div>
   );

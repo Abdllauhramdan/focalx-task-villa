@@ -1,4 +1,4 @@
-.HJ_Hero{
+.AB_Hero{
     background-image: url(./../../assets/images/page-heading-bg.jpg);
     background-position: center bottom;
     background-repeat: no-repeat;
@@ -7,7 +7,7 @@
     text-align: center;  
 }
 
-.HJ_Hero .HJ_TitleHero{
+.AB_Hero .AB_TitleHero{
     background-color: #fff;
     color: #1e1e1e;
     font-size: 14px;
@@ -17,7 +17,7 @@
     display: inline-block;
     margin-bottom: 30px;
 }
-.HJ_Hero .HJ_HeadingHero{
+.AB_Hero .AB_HeadingHero{
     font-size: 48px;
     font-weight: 900;
     text-transform: uppercase;

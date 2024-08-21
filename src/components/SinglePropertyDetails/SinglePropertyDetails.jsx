@@ -6,17 +6,17 @@ import InfoVilla from "../InfoVilla/InfoVilla";
 
 const SinglePropertyDetails = () => {
   return (
-    <div className="HJ_SinglePropertyDetails">
+    <div className="AB_SinglePropertyDetails">
       <div className="container_custom">
         <div className="row">
           <div className="col-lg-8 ">
-            <div className="HJ_MainImage">
+            <div className="AB_MainImage">
               <img src={ImgSingleProperty} alt="Img SingleProperty" />
             </div>
-            <div className="HJ_MainContent HJ_sizeMain">
-              <span className="HJ_ColorMain">Apparment</span>
-              <h4 className="HJ_titleMain">24 New Street Miami, OR 24560</h4>
-              <p className="HJ_paragrapnMain">
+            <div className="AB_MainContent AB_sizeMain">
+              <span className="AB_ColorMain">Apparment</span>
+              <h4 className="AB_titleMain">24 New Street Miami, OR 24560</h4>
+              <p className="AB_paragrapnMain">
                 Get <strong>the best villa agency</strong> HTML CSS Bootstrap Template for your
                 company website. TemplateMo provides you the 
                 <Link to="https://www.google.com/search?q=best+free+css+templates" target="_blank"> best free CSS templates </Link> 
@@ -33,7 +33,7 @@ const SinglePropertyDetails = () => {
                 intelligentsia swag post-ironic, slow-carb chambray knausgaard
                 PBR&B DSA poutine neutra cardigan hoodie pop-up.
               </p>
-              <div className="HJ_Accordion HJ_MainSpace">
+              <div className="AB_Accordion AB_MainSpace">
                 <AccordionFeaturesVilla/>
             </div>
             </div>

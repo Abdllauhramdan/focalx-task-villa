@@ -1,8 +1,8 @@
-.HJ_AllProperties {
+.AB_AllProperties {
     margin-top: 120px;
 }
 
-.HJ_ALLPropertyVilla {
+.AB_ALLPropertyVilla {
     text-align: center;
     margin-bottom: 70px;
     display: flex;
@@ -10,14 +10,14 @@
     gap: 20px;
 }
 
-.HJ_AllProperties .HJ_Pagination {
+.AB_AllProperties .AB_Pagination {
     margin-top: 50px;
     text-align: center;
     width: 100%;
     display: inline-block;
 
 }
-.HJ_AllProperties .HJ_Pagination .HJ_Number{
+.AB_AllProperties .AB_Pagination .AB_Number{
     display: inline-block;
     width: 40px;
     height: 40px;
@@ -33,18 +33,18 @@
     cursor: pointer;
 }
 
-.HJ_AllProperties  .HJ_Pagination .HJ_Active{
+.AB_AllProperties  .AB_Pagination .AB_Active{
     background-color:  #f35525;
 }
 
 @media screen and (max-width: 991px) {
-    .HJ_ALLPropertyVilla .HJ_CategoryButton a{
+    .AB_ALLPropertyVilla .AB_CategoryButton a{
         width: 100%;
         height: 41px;
         text-align: center;
         font-size:14px;
     }
-    .HJ_ALLPropertyVilla{
+    .AB_ALLPropertyVilla{
         width:516px;
         text-align: center;
         height: 51px;
@@ -54,10 +54,10 @@
 
 }
 @media screen and (max-width: 576px) {
-    .HJ_ALLPropertyVilla .HJ_CategoryButton a{
+    .AB_ALLPropertyVilla .AB_CategoryButton a{
         width: 100%;
     }
-    .HJ_ALLPropertyVilla{
+    .AB_ALLPropertyVilla{
         width:100%;
         text-align: center;
         height: 51px;
